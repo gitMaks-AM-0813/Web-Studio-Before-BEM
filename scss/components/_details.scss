@@ -1,14 +1,12 @@
 .details {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .details-list {
   list-style: none;
 }
 
-.details {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
+
 .details-title-one {
   content: "";
   font-family: var(--font-family);
@@ -18,6 +16,7 @@
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  @extend %titles;
 }
 .details-title-two {
   content: "";
@@ -28,6 +27,7 @@
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  @extend %titles;
 }
 .details-title-three {
   content: "";
@@ -38,6 +38,7 @@
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  @extend %titles;
 }
 .details-title-four {
   content: "";
@@ -48,6 +49,7 @@
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  @extend %titles;
 }
 .details-title-one::before {
   content: "";
@@ -88,6 +90,7 @@
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #757575;
+   @include txt($font-size: 14px, $line-height: 24px);
 }
 .details-list {
   display: flex;
