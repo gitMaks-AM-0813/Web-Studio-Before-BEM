@@ -165,15 +165,11 @@ a, p, ul, li, h1, h2, h3 {
 
 .details {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .details-list {
   list-style: none;
-}
-
-.details {
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .details-title-one {
@@ -227,6 +223,7 @@ a, p, ul, li, h1, h2, h3 {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .details-title-two::before {
@@ -236,6 +233,7 @@ a, p, ul, li, h1, h2, h3 {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .details-title-three::before {
@@ -245,6 +243,7 @@ a, p, ul, li, h1, h2, h3 {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .details-title-four::before {
@@ -254,6 +253,7 @@ a, p, ul, li, h1, h2, h3 {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .details-text {
@@ -664,6 +664,18 @@ a, p, ul, li, h1, h2, h3 {
   background-image: url(/images/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 620px;
+  width: 1800px;
+  background-color: rgba(47, 48, 58, 0.4);
+  transform: translateX(0%);
+  opacity: 0.8;
 }
 
 .hero-title {
