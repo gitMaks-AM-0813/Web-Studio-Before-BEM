@@ -262,7 +262,6 @@ a, p, ul, li, h1, h2, h3 {
 
 .details-list {
   display: flex;
-  justify-content: space-around;
   gap: 30px;
 }
 
@@ -282,7 +281,6 @@ a, p, ul, li, h1, h2, h3 {
 
 .doing-list {
   display: flex;
-  justify-content: space-around;
   gap: 30px;
   list-style: none;
 }
@@ -561,31 +559,31 @@ a, p, ul, li, h1, h2, h3 {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 244px;
+  gap: 93px;
 }
 
-.header-cover {
-  display: flex;
-  align-items: center;
-}
-
-.header-list-two {
-  display: flex;
-  gap: 50px;
-}
-
-.header-list-one {
-  display: flex;
-  gap: 50px;
-  margin-left: 93px;
-}
-
-.header-logo-link {
+.header-logo {
   color: var(--logo-color);
   font-weight: 700;
   font-size: 26px;
   font-family: var(--second-family);
   text-decoration: none;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header_contact-list {
+  display: flex;
+  gap: 50px;
 }
 
 .header-logo-link > span {
@@ -604,8 +602,7 @@ a, p, ul, li, h1, h2, h3 {
   color: var(--accent-color);
 }
 
-.header-mail,
-.header-phone {
+.header_contact-link {
   color: var(--primary-text);
   font-family: var(--font-family);
   font-weight: 500;
@@ -613,8 +610,7 @@ a, p, ul, li, h1, h2, h3 {
   text-decoration: none;
 }
 
-.header-mail:hover,
-.header-phone:hover {
+.header_contact-link:hover {
   color: var(--accent-color);
 }
 
@@ -921,9 +917,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .team-list {
   display: flex;
-  justify-content: space-around;
   gap: 30px;
-  list-style: none;
 }
 
 .team-item {
@@ -1017,16 +1011,15 @@ span {
   padding: 94px 0px;
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.projects-item {
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .projects-filter {
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .projects-btn {
@@ -1049,11 +1042,8 @@ span {
 
 .projects-list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  -moz-column-gap: 30px;
-  column-gap: 30px;
 }
 
 .projects-wrap {

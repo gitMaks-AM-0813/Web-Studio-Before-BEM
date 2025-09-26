@@ -2,16 +2,15 @@
   padding: 94px 0px;
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.projects-item{
+flex-basis: calc((100% - 60px) / 3);
 }
 
 .projects-filter {
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .projects-btn {
@@ -34,11 +33,9 @@
 
 .projects-list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  
 }
 
 .projects-wrap {
