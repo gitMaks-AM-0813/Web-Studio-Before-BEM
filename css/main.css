@@ -15,11 +15,6 @@ body {
   font-size: 14px;
 }
 
-.container {
-  width: 1250px;
-  margin: 0 auto;
-}
-
 a, p, ul, li, h1, h2, h3 {
   padding: 0px;
   margin: 0px;
@@ -286,13 +281,10 @@ a, p, ul, li, h1, h2, h3 {
 }
 
 .doing-list {
-  list-style: none;
-}
-
-.doing-list {
   display: flex;
   justify-content: space-around;
   gap: 30px;
+  list-style: none;
 }
 
 .doing-text {
@@ -364,11 +356,6 @@ a, p, ul, li, h1, h2, h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
-}
-
-.footer {
-  padding: 60px 0px;
-  background-color: var(--background-dark);
 }
 
 .footer-container {
@@ -923,7 +910,6 @@ a, p, ul, li, h1, h2, h3 {
 }
 
 .team-title {
-  padding-top: 94px;
   padding-bottom: 50px;
   font-family: var(--font-family);
   font-weight: 700;
@@ -934,7 +920,6 @@ a, p, ul, li, h1, h2, h3 {
 }
 
 .team-list {
-  padding-bottom: 94px;
   display: flex;
   justify-content: space-around;
   gap: 30px;
@@ -949,6 +934,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .team {
   background-color: var(--background-color1);
+  padding: 94px 0px;
 }
 
 .control {

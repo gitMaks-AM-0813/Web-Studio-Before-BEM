@@ -11,13 +11,12 @@
   color: #212121;
 }
 
-.doing-list {
-  list-style: none;
-}
+
 .doing-list {
   display: flex;
   justify-content: space-around;
   gap: 30px;
+  list-style: none;
 }
 .doing-text{
   font-family: var(--font-family);
