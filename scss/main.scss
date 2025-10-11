@@ -1,5 +1,7 @@
-@import './base/base';
+
 @import './base/reset';
+@import './base/base';
+@import './utils/variables';
 @import './components/clients';
 @import './components/details';
 @import './components/doing';
@@ -8,5 +10,4 @@
 @import './components/hero';
 @import './components/icons';
 @import './components/team';
-@import './utils/variables';
 @import './components/projects';

@@ -1,20 +1,11 @@
 body {
-  color: #757575;
+  color: var(--text-color);
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-family);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 .container {
   width: 1170px;
   margin: 0 auto;
-}
-body{
-  padding: 0px;
-  margin: 0px;
-  font-size: 14px;
-}
-
-
-a, p, ul, li, h1, h2, h3{
-  padding: 0px;
-  margin: 0px;
 }
